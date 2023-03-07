@@ -55,7 +55,7 @@ const GithubAuth = (props) => {
           setIsRequesting(false);
         });
     }
-  }, []);
+  }, [githubAuthCode, userAccount]);
 
   return (
     <div>
